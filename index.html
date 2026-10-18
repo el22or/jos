@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-GbF13GXVPU5G7HocwygajIL7QW5yQ5D3/kUjHyyqxYw='; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="text-scale" content="scale">
+<meta name="color-scheme" content="light">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Još — bento torte i tiramisu · Veternik, Novi Sad</title>
+<meta name="description" content="Ručno pravljene bento torte sa tvojim natpisom i tiramisu u posudi sa crvenom trakom. Lično preuzimanje u Veterniku ili dostava po Novom Sadu. Poruči preko Instagrama.">
+<link rel="canonical" href="https://jos.rs/">
+<meta name="theme-color" content="#8F2331">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:site_name" content="Još">
+<meta property="og:title" content="Još — bento torte i tiramisu">
+<meta property="og:description" content="Mala torta. Veliko još. Bento torte sa tvojim natpisom i tiramisu, Veternik i Novi Sad.">
+<meta property="og:url" content="https://jos.rs/">
+<meta property="og:image" content="https://jos.rs/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dva tiramisua u providnim posudama sa crvenom Još trakom, posuti kakaom">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+<link rel="preload" href="fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/cormorant-garamond-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+  // Show the intro on the first visit and again once 15 minutes have passed since it was last shown;
+  // skip it entirely when the user prefers reduced motion.
+  document.documentElement.classList.add('js');
+  try {
+    const storageKey = 'jos-intro-shown-at';
+    const replayAfter = 15 * 60 * 1000;
+    const lastShown = Number(localStorage.getItem(storageKey)) || 0;
+    if (Date.now() - lastShown > replayAfter && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('intro');
+      localStorage.setItem(storageKey, String(Date.now()));
+    }
+  } catch (e) {}
+</script>
+<script src="js/main.js" type="module"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "@id": "https://jos.rs/#jos",
+  "name": "Još",
+  "alternateName": "Još — bento cakes & tiramisu",
+  "description": "Ručno pravljene bento torte i tiramisu. Lično preuzimanje u Veterniku ili dostava po Novom Sadu.",
+  "url": "https://jos.rs/",
+  "logo": "https://jos.rs/img/apple-touch-icon.png",
+  "image": "https://jos.rs/img/og.jpg",
+  "telephone": "+381601234567",
+  "priceRange": "600–2400 RSD",
+  "currenciesAccepted": "RSD",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Veternik",
+    "addressRegion": "Novi Sad",
+    "addressCountry": "RS"
+  },
+  "areaServed": { "@type": "City", "name": "Novi Sad" },
+  "sameAs": ["https://www.instagram.com/jos.novisad/"],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Product", "name": "Tiramisu" },
+      "price": "600",
+      "priceCurrency": "RSD"
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Product", "name": "Bento torta sa natpisom" },
+      "priceSpecification": { "@type": "PriceSpecification", "minPrice": "2400", "priceCurrency": "RSD" }
+    }
+  ]
+}
+</script>
+</head>
+<body class="page">
+<a class="skip-link" href="#content">Preskoči na sadržaj</a>
+
+<svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+  <symbol id="heart" viewBox="0 0 482 443">
+    <path pathLength="1" d="M218.2 195.3 C216.4 188.8 209.7 169.2 207.2 156.4 C204.7 143.6 206.1 131.0 203.3 118.5 C200.4 106.0 196.2 93.0 189.9 81.6 C183.5 70.1 174.7 58.9 165.0 50.1 C155.4 41.3 143.6 33.4 132.0 28.9 C120.4 24.4 107.3 22.0 95.4 23.0 C83.5 24.0 70.7 28.5 60.7 35.0 C50.6 41.4 41.4 51.2 35.3 61.7 C29.2 72.1 26.0 85.4 24.0 97.8 C22.0 110.3 22.4 123.8 23.6 136.3 C24.8 148.8 27.6 161.0 31.3 172.8 C34.9 184.7 39.9 196.3 45.4 207.6 C51.0 218.9 57.7 229.9 64.7 240.7 C71.7 251.5 79.6 262.0 87.6 272.4 C95.6 282.8 104.2 293.0 112.7 303.1 C121.2 313.2 130.1 323.1 138.6 333.0 C147.2 342.9 155.8 352.6 163.9 362.3 C172.0 372.1 177.8 381.6 187.0 391.4 C196.2 401.2 213.8 416.3 219.2 421.3 C224.8 415.5 242.5 398.0 252.9 386.4 C263.3 374.8 271.7 363.1 281.6 351.6 C291.6 340.0 302.2 328.7 312.6 317.2 C323.1 305.7 333.9 294.4 344.4 282.8 C354.8 271.2 365.4 259.6 375.3 247.8 C385.2 235.9 395.0 224.0 403.8 211.6 C412.7 199.3 421.1 186.8 428.4 173.8 C435.6 160.8 442.2 147.6 447.4 133.8 C452.5 120.0 458.4 104.7 459.2 91.0 C460.0 77.4 459.2 61.5 451.9 51.8 C444.7 42.1 429.6 35.3 415.6 32.8 C401.6 30.3 383.1 33.2 368.0 36.7 C352.9 40.1 337.9 46.4 324.8 53.6 C311.6 60.8 299.9 69.8 289.1 79.7 C278.3 89.6 268.7 101.1 259.8 113.2 C250.8 125.4 242.4 138.8 235.5 152.5 C228.6 166.2 221.1 188.2 218.2 195.3"/>
+  </symbol>
+  <symbol id="arrow" viewBox="0 0 24 24">
+    <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<div class="splash" aria-hidden="true" data-splash>
+  <span class="splash__bg"></span>
+  <span class="splash__content">
+    <span class="splash__logo">
+      <span class="splash__letter splash__letter--j"></span>
+      <span class="splash__letter splash__letter--o"></span>
+      <span class="splash__letter splash__letter--s"></span>
+      <span class="splash__letter splash__letter--heart"></span>
+    </span>
+    <span class="splash__tagline">bento cakes &amp; tiramisu <svg class="splash__heart heart" width="24" height="22"><use href="#heart"/></svg></span>
+  </span>
+  <span class="splash__hint">Klik za preskok</span>
+</div>
+
+<header class="header">
+  <div class="header__bar">
+    <div class="header__inner container">
+      <a class="header__logo" href="#content"><span class="header__logo-mark logo" aria-hidden="true"></span><span class="header__logo-text visually-hidden">Još — početna</span></a>
+      <button class="header__toggle icon-btn" type="button" commandfor="menu" command="toggle-popover">
+        <svg class="icon-btn__icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span class="icon-btn__label visually-hidden">Meni</span>
+      </button>
+      <nav class="header__nav" id="menu" popover>
+        <button class="header__close icon-btn" type="button" commandfor="menu" command="hide-popover">
+          <svg class="icon-btn__icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <span class="icon-btn__label visually-hidden">Zatvori meni</span>
+        </button>
+        <ul class="header__list">
+          <li class="header__item"><a class="header__link" href="#ponuda">Ponuda</a></li>
+          <li class="header__item"><a class="header__link" href="#napravi">Napravi svoju</a></li>
+          <li class="header__item"><a class="header__link" href="#kako">Kako poručiti</a></li>
+          <li class="header__item"><a class="header__link" href="#prica">O nama</a></li>
+          <li class="header__item"><a class="header__link" href="#kontakt">Kontakt</a></li>
+        </ul>
+        <a class="header__cta btn btn--small" href="#napravi">Poruči <svg class="btn__icon heart" width="18" height="17" aria-hidden="true"><use href="#heart"/></svg></a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="main" id="content" tabindex="-1">
+  <section class="hero container">
+    <div class="hero__text">
+      <p class="hero__eyebrow eyebrow">Bento torte &amp; tiramisu · Novi Sad</p>
+      <h1 class="hero__title">
+        <span class="hero__line"><span class="hero__line-inner">Mala torta.</span></span>
+        <span class="hero__line"><span class="hero__line-inner">Veliko <em class="hero__accent">još.</em></span></span>
+      </h1>
+      <p class="hero__lead">Ručno pravljene bento tortice i tiramisu — za rođendane, izvinjenja i dane kada ti samo treba nešto slatko.</p>
+      <div class="hero__actions">
+        <a class="hero__btn btn" href="#napravi">Napravi svoju tortu <svg class="btn__icon btn__icon--arrow" width="18" height="18" aria-hidden="true"><use href="#arrow"/></svg></a>
+        <a class="hero__btn btn btn--ghost" href="#ponuda">Pogledaj ponudu</a>
+      </div>
+      <div class="hero__scroll" aria-hidden="true"><i class="hero__scroll-line"></i>Skroluj</div>
+    </div>
+    <div class="hero__media">
+      <div class="hero__photo">
+        <picture class="hero__picture">
+          <source type="image/avif" srcset="img/tiramisu-top-view-600.avif 600w, img/tiramisu-top-view-924.avif 924w" sizes="(width <= 62.5em) 92vw, 560px">
+          <source type="image/webp" srcset="img/tiramisu-top-view-600.webp 600w, img/tiramisu-top-view-924.webp 924w" sizes="(width <= 62.5em) 92vw, 560px">
+          <img class="hero__img" src="img/tiramisu-top-view-924.jpg" width="924" height="1238" fetchpriority="high" alt="Dva tiramisua u providnim posudama sa crvenom Još trakom, posuti kakaom, pored činije sa zrnima kafe">
+        </picture>
+      </div>
+      <div class="hero__sleeve" aria-hidden="true">
+        <span class="hero__sleeve-logo logo"></span>
+        <span class="hero__sleeve-tag">bento cakes<br>&amp; tiramisu</span>
+        <svg class="hero__sleeve-heart heart" width="26" height="24"><use href="#heart"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span class="marquee__item"><span class="marquee__text">bento cakes</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">tiramisu</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">Novi Sad</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">samo još jedan zalogaj</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">jos.rs</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">bento cakes</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">tiramisu</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">Novi Sad</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">samo još jedan zalogaj</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+      <span class="marquee__item"><span class="marquee__text">jos.rs</span><svg class="marquee__heart heart"><use href="#heart"/></svg></span>
+    </div>
+  </div>
+
+  <section class="offer section" id="ponuda">
+    <div class="offer__inner container">
+      <div class="offer__head section__head reveal">
+        <div class="section__heading">
+          <p class="section__eyebrow eyebrow">Ponuda</p>
+          <h2 class="section__title title">Malo, ali <em class="title__accent">baš</em> dovoljno.</h2>
+        </div>
+        <p class="section__intro">Dva proizvoda, rađena kako treba. Svaki komad ide u svoju posudu sa crvenom trakom — spreman za poklon ili za tebe.</p>
+      </div>
+      <ul class="offer__grid" role="list">
+        <li class="offer__tile offer__tile--big offer__tile--photo reveal">
+          <picture class="offer__picture">
+            <source type="image/avif" srcset="img/tiramisu-top-view-600.avif 600w, img/tiramisu-top-view-924.avif 924w" sizes="(width <= 62.5em) 92vw, 620px">
+            <source type="image/webp" srcset="img/tiramisu-top-view-600.webp 600w, img/tiramisu-top-view-924.webp 924w" sizes="(width <= 62.5em) 92vw, 620px">
+            <img class="offer__img" src="img/tiramisu-top-view-600.jpg" width="600" height="804" loading="lazy" alt="">
+          </picture>
+          <h3 class="offer__title">Tiramisu</h3>
+          <p class="offer__text">Kafa, krem i kakao, u posudi koja se nosi bilo gde.</p>
+          <p class="offer__price"><span class="offer__price-label visually-hidden">Cena: </span>600 RSD</p>
+        </li>
+        <li class="offer__tile offer__tile--wide offer__tile--cocoa reveal">
+          <svg class="offer__deco" aria-hidden="true"><use href="#heart"/></svg>
+          <h3 class="offer__title">Bento torta</h3>
+          <p class="offer__text">Mala torta za dvoje, sa tvojim natpisom.</p>
+          <p class="offer__price"><span class="offer__price-label visually-hidden">Cena: </span>od 2.400 RSD</p>
+        </li>
+        <li class="offer__tile offer__tile--wide offer__tile--make reveal">
+          <a class="offer__link" href="#napravi">
+            <span class="offer__arrow" aria-hidden="true"><svg class="offer__arrow-icon" width="20" height="20"><use href="#arrow"/></svg></span>
+            <h3 class="offer__title offer__title--small">Napravi svoju</h3>
+            <p class="offer__text">Ukus, boja, natpis — za 30 sekundi.</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="builder section section--tinted" id="napravi">
+    <div class="builder__inner container">
+      <div class="builder__stage reveal" aria-hidden="true">
+        <div class="builder__box">
+          <div class="builder__cake" data-cake>
+            <span class="builder__piping"></span>
+            <span class="builder__cake-text" data-cake-text>Srećan rođendan</span>
+            <svg class="builder__cake-heart heart"><use href="#heart"/></svg>
+          </div>
+          <span class="builder__sticker"><span class="builder__sticker-logo logo"></span></span>
+        </div>
+      </div>
+      <form class="builder__form" data-builder>
+        <p class="builder__eyebrow eyebrow">Napravi svoju bento tortu</p>
+        <h2 class="builder__title title">Tvoje reči, <em class="title__accent">naša</em> torta.</h2>
+
+        <fieldset class="builder__field">
+          <legend class="builder__label">Ukus</legend>
+          <div class="builder__chips">
+            <label class="builder__chip" for="flavor-1"><input class="builder__chip-input" id="flavor-1" type="radio" name="flavor" value="Vanila" checked><span class="builder__chip-text">Vanila</span></label>
+            <label class="builder__chip" for="flavor-2"><input class="builder__chip-input" id="flavor-2" type="radio" name="flavor" value="Čokolada"><span class="builder__chip-text">Čokolada</span></label>
+            <label class="builder__chip" for="flavor-3"><input class="builder__chip-input" id="flavor-3" type="radio" name="flavor" value="Crvena kadifa"><span class="builder__chip-text">Crvena kadifa</span></label>
+            <label class="builder__chip" for="flavor-4"><input class="builder__chip-input" id="flavor-4" type="radio" name="flavor" value="Pistać"><span class="builder__chip-text">Pistać</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="builder__field">
+          <legend class="builder__label">Boja glazure — <span class="builder__label-value" data-color-name>Krem</span></legend>
+          <div class="builder__swatches">
+            <label class="builder__swatch" for="glaze-cream"><input class="builder__swatch-input builder__swatch-input--cream" id="glaze-cream" type="radio" name="glaze" value="Krem" checked><span class="builder__swatch-name visually-hidden">Krem</span></label>
+            <label class="builder__swatch builder__swatch--blush" for="glaze-blush"><input class="builder__swatch-input builder__swatch-input--blush" id="glaze-blush" type="radio" name="glaze" value="Puder roze"><span class="builder__swatch-name visually-hidden">Puder roze</span></label>
+            <label class="builder__swatch builder__swatch--pistachio" for="glaze-pistachio"><input class="builder__swatch-input builder__swatch-input--pistachio" id="glaze-pistachio" type="radio" name="glaze" value="Pistać"><span class="builder__swatch-name visually-hidden">Pistać</span></label>
+            <label class="builder__swatch builder__swatch--cocoa" for="glaze-cocoa"><input class="builder__swatch-input builder__swatch-input--cocoa" id="glaze-cocoa" type="radio" name="glaze" value="Kakao"><span class="builder__swatch-name visually-hidden">Kakao</span></label>
+            <label class="builder__swatch builder__swatch--burgundy" for="glaze-burgundy"><input class="builder__swatch-input builder__swatch-input--burgundy" id="glaze-burgundy" type="radio" name="glaze" value="Još bordo"><span class="builder__swatch-name visually-hidden">Još bordo</span></label>
+          </div>
+        </fieldset>
+
+        <div class="builder__row">
+          <div class="builder__field builder__field--text">
+            <label class="builder__label" for="inscription">Natpis na torti</label>
+            <p class="builder__hint" id="inscription-hint">Najviše 28 znakova.</p>
+            <input class="builder__input" id="inscription" name="inscription" type="text" maxlength="28" value="Srećan rođendan" enterkeyhint="done" aria-describedby="inscription-hint">
+          </div>
+          <div class="builder__field builder__field--date">
+            <label class="builder__label" for="pickup-date">Datum preuzimanja</label>
+            <p class="builder__hint" id="date-hint">Najmanje 2 dana unapred.</p>
+            <input class="builder__input" id="pickup-date" name="pickup-date" type="date" aria-describedby="date-hint">
+          </div>
+        </div>
+
+        <p class="builder__summary">
+          <b class="builder__summary-label">Tvoja porudžbina:</b>
+          <output class="builder__message" for="inscription pickup-date" data-message>bento torta, vanila, glazura krem, natpis „Srećan rođendan“, datum po dogovoru.</output>
+          <br class="builder__break">
+          <b class="builder__summary-label">Cena:</b> od 2.400 RSD
+        </p>
+
+        <div class="builder__actions">
+          <a class="builder__btn btn" href="https://ig.me/m/jos.novisad" target="_blank" rel="noopener" data-send-ig>Pošalji na Instagram <svg class="btn__icon btn__icon--arrow" width="18" height="18" aria-hidden="true"><use href="#arrow"/></svg><span class="btn__note visually-hidden"> (otvara se u novom prozoru)</span></a>
+          <a class="builder__btn btn btn--ghost" href="https://wa.me/381601234567" target="_blank" rel="noopener" data-send-wa>WhatsApp<span class="btn__note visually-hidden"> (otvara se u novom prozoru)</span></a>
+        </div>
+        <p class="builder__status" role="status" data-status></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="steps section" id="kako">
+    <div class="steps__inner container">
+      <div class="steps__head section__head reveal">
+        <div class="section__heading">
+          <p class="section__eyebrow eyebrow">Kako poručiti</p>
+          <h2 class="section__title title">Tri koraka do <em class="title__accent">još</em>.</h2>
+        </div>
+      </div>
+      <ol class="steps__list" role="list">
+        <li class="steps__item reveal">
+          <span class="steps__num" aria-hidden="true">01</span>
+          <h3 class="steps__title">Izaberi</h3>
+          <p class="steps__text">Tiramisu ili bento torta — ukus, boja glazure i natpis koji želiš.</p>
+        </li>
+        <li class="steps__item reveal">
+          <span class="steps__num" aria-hidden="true">02</span>
+          <h3 class="steps__title">Javi nam</h3>
+          <p class="steps__text">Pošalji porudžbinu preko Instagrama ili Vibera, najmanje 2 dana unapred.</p>
+        </li>
+        <li class="steps__item reveal">
+          <span class="steps__num" aria-hidden="true">03</span>
+          <h3 class="steps__title">Preuzmi</h3>
+          <p class="steps__text">Lično preuzimanje u Veterniku ili dostava na tvoju adresu u Novom Sadu.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="story" id="prica">
+    <span class="story__ghost" aria-hidden="true">još</span>
+    <div class="story__inner container">
+      <div class="story__text reveal">
+        <h2 class="story__eyebrow eyebrow eyebrow--light">Zašto „Još“?</h2>
+        <p class="story__quote">Posle prvog zalogaja niko ne kaže „dosta“. Svi kažu — još.</p>
+        <p class="story__body">Još je nastao iz jedne jednostavne želje — da obraduje ljude koje volimo. Torta za rođendan u porodici, tiramisu za prijatelje, mala bento torta onako, bez povoda. Reakcija je uvek bila ista: osmeh, pa pitanje „Ima li još?“ Tako je ljubav prema pečenju postala Još — da ta ista radost stigne i do tebe.</p>
+      </div>
+      <div class="story__photo reveal">
+        <picture class="story__picture">
+          <source type="image/avif" srcset="img/tiramisu-in-hand.avif">
+          <source type="image/webp" srcset="img/tiramisu-in-hand.webp">
+          <img class="story__img" src="img/tiramisu-in-hand.jpg" width="520" height="504" loading="lazy" alt="Ruka drži tiramisu sa crvenom Još trakom">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <section class="insta section" id="instagram">
+    <div class="insta__inner container">
+      <div class="insta__head section__head reveal">
+        <div class="section__heading">
+          <p class="section__eyebrow eyebrow">Instagram</p>
+          <h2 class="section__title title">@jos.novisad</h2>
+        </div>
+        <a class="insta__follow btn btn--ghost" href="https://www.instagram.com/jos.novisad/" target="_blank" rel="noopener">Zaprati nas<span class="btn__note visually-hidden"> na Instagramu (otvara se u novom prozoru)</span></a>
+      </div>
+      <ul class="insta__grid" role="list">
+        <li class="insta__item reveal">
+          <div class="insta__frame">
+            <picture class="insta__picture"><source type="image/avif" srcset="img/tiramisu-top-view-600.avif"><source type="image/webp" srcset="img/tiramisu-top-view-600.webp"><img class="insta__img" src="img/tiramisu-top-view-600.jpg" width="600" height="804" loading="lazy" alt="Tiramisu posut kakaom, pogled odozgo"></picture>
+          </div>
+        </li>
+        <li class="insta__item reveal">
+          <div class="insta__frame">
+            <picture class="insta__picture"><source type="image/avif" srcset="img/packaging-sleeves.avif"><source type="image/webp" srcset="img/packaging-sleeves.webp"><img class="insta__img" src="img/packaging-sleeves.jpg" width="414" height="355" loading="lazy" alt="Dve crvene Još trake na pakovanjima"></picture>
+          </div>
+        </li>
+        <li class="insta__item reveal">
+          <div class="insta__frame">
+            <picture class="insta__picture"><source type="image/avif" srcset="img/tiramisu-in-hand.avif"><source type="image/webp" srcset="img/tiramisu-in-hand.webp"><img class="insta__img" src="img/tiramisu-in-hand.jpg" width="520" height="504" loading="lazy" alt="Tiramisu u ruci"></picture>
+          </div>
+        </li>
+        <li class="insta__item reveal" aria-hidden="true">
+          <div class="insta__frame insta__frame--brand">
+            <span class="insta__logo logo"></span>
+            <span class="insta__tag">bento cakes &amp; tiramisu <svg class="insta__heart heart" width="16" height="15"><use href="#heart"/></svg></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="kontakt">
+  <div class="footer__inner container">
+    <div class="footer__top">
+      <h2 class="footer__title title">Poželeo si <em class="footer__accent">još?</em></h2>
+      <a class="footer__cta btn btn--light" href="#napravi">Poruči sada</a>
+    </div>
+    <div class="footer__cols">
+      <div class="footer__col">
+        <h3 class="footer__heading">Poruči</h3>
+        <p class="footer__text"><a class="footer__link" href="https://ig.me/m/jos.novisad" target="_blank" rel="noopener">Instagram poruka</a></p>
+        <p class="footer__text">Viber / WhatsApp: <a class="footer__link" href="tel:+381601234567">060 123 4567</a></p>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Gde smo</h3>
+        <p class="footer__text">Lično preuzimanje: Veternik</p>
+        <p class="footer__text">Dostava: Novi Sad</p>
+        <p class="footer__text">Porudžbine najmanje 2 dana unapred</p>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Prati</h3>
+        <p class="footer__text"><a class="footer__link" href="https://www.instagram.com/jos.novisad/" target="_blank" rel="noopener">@jos.novisad</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer__giant" aria-hidden="true"><span class="footer__giant-logo logo"></span></div>
+  <div class="footer__legal container">
+    <span class="footer__legal-text">© 2026 Još · bento cakes &amp; tiramisu · Novi Sad</span>
+    <span class="footer__legal-text">jos.rs</span>
+  </div>
+</footer>
+</body>
+</html>
